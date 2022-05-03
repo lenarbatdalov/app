@@ -1,0 +1,19 @@
+{
+  "editor.hover.enabled": true,
+  "workbench.colorTheme": "Default Light+",
+  // "workbench.colorTheme": "SynthWave '84",
+  // "window.zoomLevel": -0.2,
+
+  "files.exclude": {
+    // ".vscode": true,
+    "assets/.vscode": true,
+    "**/dist": true,
+    "**/package-lock.json": true,
+    "go.sum": true,
+    // "**/": true,
+  },
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+}
